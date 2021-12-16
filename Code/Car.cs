@@ -13,6 +13,5 @@ namespace Kursach1
         public int YearOfIssue { get; set; }
         public int Mileage { get; set; }
         public double CostOf1Hour { get; set; }
-        //public abstract double CalculatedRevenue(double hours);
     }
 }
