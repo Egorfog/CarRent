@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="Code\RentCar.cs" />
     <Compile Include="Code\CarPark.cs" />
-    <Compile Include="Code\FileWorker.cs" />
     <Compile Include="DataBase\DataBaseHelper.cs" />
     <Compile Include="DataBase\MyCar.cs" />
     <Compile Include="Visual\Form1.cs">
@@ -89,11 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="cars.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
