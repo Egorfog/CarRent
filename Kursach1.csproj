@@ -51,9 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\RentCar.cs" />
-    <Compile Include="Code\CarPark.cs" />
     <Compile Include="DataBase\DataBaseHelper.cs" />
-    <Compile Include="DataBase\MyCar.cs" />
+    <Compile Include="Code\MyCar.cs" />
     <Compile Include="Visual\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
