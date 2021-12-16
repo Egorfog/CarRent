@@ -109,8 +109,6 @@ namespace Kursach1
                 InitMyCars();
                 listBox1.Items.Add(myCar);
             }
-
-            //CalculateTotalRevenue();
         }
 
         private void CalculateTotalRevenue()
@@ -206,11 +204,8 @@ namespace Kursach1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //_myCars.Remove((MyCar)listBox1.SelectedItem);
             DataBaseHelper.TakeOffRentCar((MyCar)listBox1.SelectedItem);
             InitMyCarListBox();
-
-            //listBox1.Items.Remove((RentCar)listBox1.SelectedItem);
 
             CalculateTotalRevenue();
         }
